@@ -1,10 +1,11 @@
+name: GH Actions Cron Schedule
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron:  '*/15 * * * *'
 
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
     steps:
-      - name: 1210
+      - name: 1to10
         run: wget https://lia.liara.run/download/5GB.bin
