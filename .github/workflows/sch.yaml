@@ -1,7 +1,7 @@
 name: GH Actions Cron Schedule
 on:
   schedule:
-    - cron:  '*/20 * * * *'
+    - cron:  '0 * * * *'
   push:
     branches:
       - main
@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 1to10
-        run: wget https://lia.liara.run/download/5GB.bin
+        run: wget https://lia.liara.run/download/2GB.bin
