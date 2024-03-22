@@ -2,6 +2,9 @@ name: GH Actions Cron Schedule
 on:
   schedule:
     - cron:  '*/15 * * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-push-image:
