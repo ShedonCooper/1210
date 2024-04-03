@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 1to10
-        run: wget https://lia.liara.run/download/2GB.bin
-        run: wget https://upn.liara.run/download/2GB.bin
-
+        run: wget https://lia.liara.run/download/2GB.bin |
+          wget https://upn.liara.run/download/2GB.bin
+  
