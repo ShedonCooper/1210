@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: 1to10
         run: |
-          wget https://lia.liara.run/download/2GB.bin 
+          wget https://lia2.liara.run/download/2GB.bin 
           wget https://upn.liara.run/download/2GB.bin
   
