@@ -13,7 +13,7 @@ jobs:
       - name: 1to10
         run: |
           wget https://lia2.liara.run/download/4GB.bin 
-          wget https://upn.liara.run/download/2GB.bin
-          wget https://javdanesaz.liara.run/download/2GB.bin
+          wget https://deco.onfing.ir/download/4GB.bin
+          
           
   
